@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoWebShop System Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="System Test Cases(failed)">
+    <groups>
+      <run>
+        <include name="System"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Ecom.DemoWebShop.Checkout.CheckoutTestCase">
+        <methods>
+          <include name="completeCheckout" invocation-numbers="0"/>
+          <include name="navigateToApp"/>
+          <include name="bt"/>
+          <include name="closeBrowser"/>
+          <include name="dbConnection"/>
+        </methods>
+      </class> <!-- Ecom.DemoWebShop.Checkout.CheckoutTestCase -->
+    </classes>
+  </test> <!-- System Test Cases(failed) -->
+</suite> <!-- Failed suite [DemoWebShop System Suite] -->
